@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "inbiot-anne-plugin": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.miguel-escribano.com/inbiot-mcp-for-Anne-IAQ-consultant-as-a-plugin/sse",
+        "--header",
+        "X-MCP-Token: ${MCP_INBIOT_TOKEN}"
+      ]
+    }
+  }
+}

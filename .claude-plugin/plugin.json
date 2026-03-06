@@ -1,0 +1,10 @@
+{
+  "name": "inbiot-anne",
+  "description": "Anne — WELL AP IAQ consultant with live InBiot sensor data. Analyzes air quality, WELL v2 compliance, ventilation, and health risk across monitored spaces.",
+  "version": "1.0.0",
+  "author": {
+    "name": "inBiot"
+  },
+  "homepage": "https://www.inbiot.es/",
+  "keywords": ["iaq", "well", "air-quality", "inbiot", "ashrae", "ventilation", "health", "certification"]
+}
