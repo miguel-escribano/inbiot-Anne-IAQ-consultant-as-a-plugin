@@ -28,13 +28,7 @@ No copy-pasting readings into a chat. No prompting from scratch. Anne knows the 
 - [Claude Code](https://claude.ai/code) v1.0.33+
 - An MCP token — contact the server admin
 
-### 1. Clone the plugin
-
-```bash
-git clone https://github.com/miguel-escribano/inbiot-Anne-IAQ-consultant-as-a-plugin
-```
-
-### 2. Set your MCP token
+### 1. Set your MCP token
 
 ```bash
 export MCP_INBIOT_TOKEN=your-token-here
@@ -43,13 +37,18 @@ export MCP_INBIOT_TOKEN=your-token-here
 Add to your shell profile (`~/.zshrc`, `~/.bashrc`) to persist across sessions.
 On Windows (PowerShell): `$env:MCP_INBIOT_TOKEN = "your-token-here"`
 
-### 3. Launch Claude Code with the plugin
+### 2. Install the plugin (persistent — recommended)
 
-```bash
-claude --plugin-dir ./inbiot-Anne-IAQ-consultant-as-a-plugin
+Start `claude`, then run these **slash commands inside the session**:
+
+```
+/plugin marketplace add miguel-escribano/inbiot-Anne-IAQ-consultant-as-a-plugin
+/plugin install inbiot-anne@miguel-escribano-inbiot-anne-iaq-consultant-as-a-plugin
 ```
 
-### 4. Try it
+The plugin stays installed across sessions. Use `/plugin` to manage it.
+
+### 3. Try it
 
 ```
 /inbiot-anne:facility-dashboard
@@ -58,6 +57,15 @@ claude --plugin-dir ./inbiot-Anne-IAQ-consultant-as-a-plugin
 ```
 
 **Available devices:** `cafeteria`, `main_office`, `laboratory`, `miguel_demo`
+
+---
+
+## Local / dev mode (per-session, no install)
+
+```bash
+git clone https://github.com/miguel-escribano/inbiot-Anne-IAQ-consultant-as-a-plugin
+claude --plugin-dir ./inbiot-Anne-IAQ-consultant-as-a-plugin
+```
 
 ---
 

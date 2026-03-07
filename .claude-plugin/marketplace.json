@@ -1,0 +1,11 @@
+{
+  "name": "inbiot-anne",
+  "description": "inBiot Anne — WELL AP IAQ Consultant Plugin marketplace",
+  "plugins": [
+    {
+      "name": "inbiot-anne",
+      "description": "Anne — WELL AP IAQ consultant with live InBiot sensor data. Analyzes air quality, WELL v2 compliance, ventilation, and health risk across monitored spaces.",
+      "path": "."
+    }
+  ]
+}
