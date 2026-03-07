@@ -25,7 +25,7 @@ No copy-pasting readings into a chat. No prompting from scratch. Anne knows the 
 ### Prerequisites
 
 - [Node.js 18+](https://nodejs.org/) (for `mcp-remote`)
-- [Claude Code](https://claude.ai/code) v1.0.33+
+- [Claude Code](https://claude.ai/code) v1.0.33+ or [Claude Desktop](https://claude.ai/download) (Cowork)
 - An MCP token — contact the server admin
 
 ### 1. Set your MCP token
@@ -37,7 +37,7 @@ export MCP_INBIOT_TOKEN=your-token-here
 Add to your shell profile (`~/.zshrc`, `~/.bashrc`) to persist across sessions.
 On Windows (PowerShell): `$env:MCP_INBIOT_TOKEN = "your-token-here"`
 
-### 2. Install the plugin (persistent — recommended)
+### 2a. Claude Code (CLI)
 
 Start `claude`, then run these **slash commands inside the session**:
 
@@ -47,6 +47,13 @@ Start `claude`, then run these **slash commands inside the session**:
 ```
 
 The plugin stays installed across sessions. Use `/plugin` to manage it.
+
+### 2b. Claude Desktop (Cowork)
+
+1. Open Claude Desktop → **Cowork** tab
+2. Click **Customize** in the left sidebar
+3. Click **Browse plugins** → search for **inbiot-anne**, or upload the plugin files manually
+4. Click **Install**
 
 ### 3. Try it
 
