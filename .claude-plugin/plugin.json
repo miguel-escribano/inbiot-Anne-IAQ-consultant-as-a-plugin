@@ -6,5 +6,7 @@
     "name": "inBiot"
   },
   "homepage": "https://www.inbiot.es/",
+  "repository": "https://github.com/miguel-escribano/inbiot-Anne-IAQ-consultant-as-a-plugin",
+  "license": "MIT",
   "keywords": ["iaq", "well", "air-quality", "inbiot", "ashrae", "ventilation", "health", "certification"]
 }

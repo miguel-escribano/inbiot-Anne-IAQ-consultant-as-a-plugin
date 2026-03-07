@@ -39,7 +39,7 @@ Add to your shell profile (`~/.zshrc`, `~/.bashrc`) to persist across sessions.
 ### 2. Add the marketplace and install
 
 ```bash
-claude marketplace add https://github.com/mescribano23/inbiot-Anne-IAQ-consultant-as-a-plugin
+claude marketplace add https://github.com/miguel-escribano/inbiot-Anne-IAQ-consultant-as-a-plugin
 claude plugin install inbiot-anne
 ```
 
@@ -58,7 +58,7 @@ claude plugin install inbiot-anne
 ## Local / dev mode
 
 ```bash
-git clone https://github.com/mescribano23/inbiot-Anne-IAQ-consultant-as-a-plugin
+git clone https://github.com/miguel-escribano/inbiot-Anne-IAQ-consultant-as-a-plugin
 claude --plugin-dir ./inbiot-Anne-IAQ-consultant-as-a-plugin
 ```
 
