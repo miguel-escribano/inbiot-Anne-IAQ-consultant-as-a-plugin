@@ -26,7 +26,7 @@ No copy-pasting readings into a chat. No prompting from scratch. Anne knows the 
 
 - [Node.js 18+](https://nodejs.org/) (for `mcp-remote`)
 - [Claude Code](https://claude.ai/code) v1.0.33+ or [Claude Desktop](https://claude.ai/download) (Cowork)
-- An MCP token — contact the server admin
+- An MCP token — request one at **mescribano@inbiot.es**
 
 ### 1. Set your MCP token
 
@@ -54,6 +54,11 @@ The plugin stays installed across sessions. Use `/plugin` to manage it.
 2. Click **Customize** in the left sidebar
 3. Click **Browse plugins** → search for **inbiot-anne**, or upload the plugin files manually
 4. Click **Install**
+5. Go back to **Customize**, find the **Anne** plugin, and click **Connectors** → **Edit**
+6. This opens the folder containing the plugin's `.mcp.json` file
+7. Open `.mcp.json` and replace `${MCP_INBIOT_TOKEN}` with your actual token
+
+To request a token, email **mescribano@inbiot.es**.
 
 ### 3. Try it
 
