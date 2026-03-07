@@ -20,7 +20,7 @@ No copy-pasting readings into a chat. No prompting from scratch. Anne knows the 
 
 ---
 
-## Install (recommended)
+## Install
 
 ### Prerequisites
 
@@ -28,22 +28,28 @@ No copy-pasting readings into a chat. No prompting from scratch. Anne knows the 
 - [Claude Code](https://claude.ai/code) v1.0.33+
 - An MCP token — contact the server admin
 
-### 1. Set your token
+### 1. Clone the plugin
+
+```bash
+git clone https://github.com/miguel-escribano/inbiot-Anne-IAQ-consultant-as-a-plugin
+```
+
+### 2. Set your MCP token
 
 ```bash
 export MCP_INBIOT_TOKEN=your-token-here
 ```
 
 Add to your shell profile (`~/.zshrc`, `~/.bashrc`) to persist across sessions.
+On Windows (PowerShell): `$env:MCP_INBIOT_TOKEN = "your-token-here"`
 
-### 2. Add the marketplace and install
+### 3. Launch Claude Code with the plugin
 
 ```bash
-claude marketplace add https://raw.githubusercontent.com/miguel-escribano/inbiot-Anne-IAQ-consultant-as-a-plugin/main/marketplace.json
-claude plugin install inbiot-anne
+claude --plugin-dir ./inbiot-Anne-IAQ-consultant-as-a-plugin
 ```
 
-### 3. Try it
+### 4. Try it
 
 ```
 /inbiot-anne:facility-dashboard
@@ -52,15 +58,6 @@ claude plugin install inbiot-anne
 ```
 
 **Available devices:** `cafeteria`, `main_office`, `laboratory`, `miguel_demo`
-
----
-
-## Local / dev mode
-
-```bash
-git clone https://github.com/miguel-escribano/inbiot-Anne-IAQ-consultant-as-a-plugin
-claude --plugin-dir ./inbiot-Anne-IAQ-consultant-as-a-plugin
-```
 
 ---
 
