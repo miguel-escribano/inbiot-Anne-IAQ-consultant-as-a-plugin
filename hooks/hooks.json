@@ -5,7 +5,17 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '--- Anne IAQ Plugin Loaded ---\nI am Anne, your WELL AP consultant and IAQ specialist.\n\nAvailable commands:\n  /inbiot-anne:facility-dashboard          - Facility-wide overview\n  /inbiot-anne:air-quality-analysis <dev>  - Air quality analysis\n  /inbiot-anne:health-advisory <dev>       - Health recommendations\n  /inbiot-anne:well-certification <dev>    - WELL v2 assessment\n  /inbiot-anne:compare-devices <d1> <d2>   - Compare two devices\n  /inbiot-anne:trend-analysis <dev> ...    - Pattern analysis\n  /inbiot-anne:ventilation-check <dev>     - Ventilation assessment\n  /inbiot-anne:daily-report [date]         - End-of-day summary\n\nStart with /inbiot-anne:facility-dashboard to see all monitored spaces.'"
+            "command": "echo '--- Anne IAQ Plugin Loaded ---\n\nI am Anne, your WELL AP Indoor Air Quality consultant powered by live InBiot sensor data.\n\nWhat I can help with:\n- Facility-wide air quality dashboards\n- Deep air quality analysis for any monitored space\n- Health-focused advisories and risk assessments\n- WELL v2 certification assessments and roadmaps\n- Side-by-side device comparisons\n- Trend analysis and pattern detection over time\n- Ventilation effectiveness checks (indoor vs outdoor)\n- Daily facility summary reports\n\nYou can use slash commands (type / to see them) or just ask me naturally.\nFor example: \"How is air quality in the main office?\" or \"Is the cafeteria WELL compliant?\"\n\nIn Claude Code use the namespaced form, e.g. /inbiot-anne:facility-dashboard\nIn Cursor use the short form, e.g. /facility-dashboard'"
+          }
+        ]
+      }
+    ],
+    "sessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '--- Anne IAQ Plugin Loaded ---\n\nI am Anne, your WELL AP Indoor Air Quality consultant powered by live InBiot sensor data.\n\nWhat I can help with:\n- Facility-wide air quality dashboards\n- Deep air quality analysis for any monitored space\n- Health-focused advisories and risk assessments\n- WELL v2 certification assessments and roadmaps\n- Side-by-side device comparisons\n- Trend analysis and pattern detection over time\n- Ventilation effectiveness checks (indoor vs outdoor)\n- Daily facility summary reports\n\nYou can use slash commands (type / to see them) or just ask me naturally.\nFor example: \"How is air quality in the main office?\" or \"Is the cafeteria WELL compliant?\"\n\nIn Claude Code use the namespaced form, e.g. /inbiot-anne:facility-dashboard\nIn Cursor use the short form, e.g. /facility-dashboard'"
           }
         ]
       }
