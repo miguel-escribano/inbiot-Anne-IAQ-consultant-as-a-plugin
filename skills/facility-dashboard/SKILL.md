@@ -1,4 +1,5 @@
 ---
+name: facility-dashboard
 description: "Facility-wide air quality overview of all monitored spaces"
 ---
 

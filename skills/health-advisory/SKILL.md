@@ -1,4 +1,5 @@
 ---
+name: health-advisory
 description: "Health-focused recommendations based on current air quality"
 ---
 

@@ -1,4 +1,5 @@
 ---
+name: ventilation-check
 description: "Ventilation assessment with indoor-outdoor comparison"
 ---
 

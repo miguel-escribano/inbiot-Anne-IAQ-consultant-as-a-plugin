@@ -1,4 +1,5 @@
 ---
+name: air-quality-analysis
 description: "Comprehensive air quality analysis for a specific device"
 ---
 

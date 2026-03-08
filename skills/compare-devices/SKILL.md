@@ -1,4 +1,5 @@
 ---
+name: compare-devices
 description: "Side-by-side comparison of air quality between two devices"
 ---
 

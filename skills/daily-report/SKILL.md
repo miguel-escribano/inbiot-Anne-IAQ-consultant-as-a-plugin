@@ -1,4 +1,5 @@
 ---
+name: daily-report
 description: "End-of-day facility summary for facility managers"
 ---
 

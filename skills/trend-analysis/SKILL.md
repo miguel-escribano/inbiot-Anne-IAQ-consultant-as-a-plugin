@@ -1,4 +1,5 @@
 ---
+name: trend-analysis
 description: "Pattern detection and statistical analysis over a time period"
 ---
 
